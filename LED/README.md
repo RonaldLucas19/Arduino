@@ -46,7 +46,7 @@ Agora que compreendemos melhor sobre o LED e seu funcionamento, vamos juntos ver
 - 5 Jumpers;
 - 3 LEDs;
 - 3 Resistores (220 Ω);
-- 1 Protoboard
+- 1 Protoboard.
 
 # Montagem do Circuito
 
@@ -98,9 +98,9 @@ Nesse momento, entramos em contato com a linguagem nativa dos computadores por m
 ```
 Cada uma dessas variáveis representa um bit do número armazenado em um ‘num’. Como cada bit só pode assumir os valores de 0 ou 1, o programa separa o número decimal em sua forma binária, identificando quais posições devem ficar ligadas (1) ou desligadas (0). Nesse contexto: 
 
-- b0 corresponde ao bit menos significativo
-- b1  corresponde ao bit do meio
-- b2 corresponde ao bit mais significativo
+- b0 corresponde ao bit menos significativo;
+- b1  corresponde ao bit do meio;
+- b2 corresponde ao bit mais significativo.
 
 Para obter o bit b0, que já ocupa a posição menos significativa, basta extrair diretamente o resto da divisão do número por 2. No caso de b1, o programa divide o número por 2 para aplicar um deslocamento de uma posição para a direita, alinhando o bit do meio na casa inicial para então isolá-lo com o resto da divisão por 2. O mesmo princípio se aplica a b2, onde a divisão por 4 realiza um deslocamento de duas posições para a direita, trazendo o bit mais significativo para a primeira casa, onde ele é finalmente capturado pelo resto da divisão por 2. 
 
