@@ -26,7 +26,8 @@ Lançado originalmente em 1978 pela empresa Milton Bradley, o jogo chegou às lo
 - Protoboard;
 - Display LCD 16x2;
 - Potenciômetro de 10 kΩ;
-- Buzzer;
+- 4 botões;
+- 1 Buzzer;
 - 4 Leds (vermelho, azul, amarelo e verde);
 - 2 Resistores de 220 Ω;
 - 4 Resistores de 150 Ω;
